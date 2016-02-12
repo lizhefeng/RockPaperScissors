@@ -21,5 +21,14 @@
             android:layout_weight="0"
             android:src="@drawable/choose_wisely" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/button"
+            android:clickable="true"
+            android:onClick="playPressed" />
+
     </LinearLayout>
+
 </RelativeLayout>
